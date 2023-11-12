@@ -1,0 +1,28 @@
+1. realizar el fork dentro del navegador
+2. realizar cd a la nueva carpeta <<ae2-1bim-oct23>>
+3. ejecutar comando gif status para verficar el estado de la carpeta
+- comando ls lista de archivos
+4. git add . agrega clambios y modificados
+5. git commit -m "mensaje"
+6. git status 
+7. git push <<usuarios windows mac>> poner usuario y tocken
+
+
+Pasos
+
+git clone [dirección del repositorio]
+git branch
+
+git branch ramanueva
+git checkout ramanueva
+git add .
+git commit -m"agregar cambios en la rama nueva"
+git push --set-upstream origin ramanueva # solo en la primera ocasión
+
+git checkout main
+git add .
+git commit -m"agregar cambios en la rama main"
+git push
+
+git config --global user.name "tu_nombre"
+git config --global user.email tucorreo@example.com
