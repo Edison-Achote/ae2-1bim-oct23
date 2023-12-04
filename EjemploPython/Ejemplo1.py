@@ -18,8 +18,8 @@ class Empresa:
 
 
 # Ejemplo de uso:
-mi_vehiculo = Vehiculo("Toyota hilux", "Azul", 2022)
-mi_empresa = Empresa("ABC Motors", "123 Calle Principal")
+mi_vehiculo = Vehiculo("Mazda bt50", "Rojo", 2023)
+mi_empresa = Empresa("ABACAR", "quito")
 
 print(mi_vehiculo.obtener_informacion())
 print(mi_empresa.obtener_informacion())
